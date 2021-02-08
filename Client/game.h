@@ -12,15 +12,15 @@
 #include <string.h>
 #include <time.h>
 #include <fcntl.h>
-char horizental[5][5];
-char vertical[5][5];
-char names[5][5];
+char horizental[6][6];
+char vertical[6][6];
+char names[6][6];
 int points[4] = {0};
 void init()
 {
-	for(int i = 0; i < 5; i++)
+	for(int i = 0; i < 6; i++)
 	{
-		for(int j = 0; j < 5; j++)
+		for(int j = 0; j < 6; j++)
 		{
 			vertical[i][j] = ' ';
 			horizental[i][j] = ' ';
